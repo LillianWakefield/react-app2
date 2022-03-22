@@ -2,6 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+let Saludo = "Hola Mundo"
+
+//setState(myArray)
+
   return (
     <div className="App">
       <header className="App-header">
@@ -9,6 +14,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <div>{Saludo}</div>
         <a
           className="App-link"
           href="https://reactjs.org"
