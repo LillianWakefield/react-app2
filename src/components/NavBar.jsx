@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Nav from 'react-bootstrap/Nav';
 import CartWidget from './CartWidget';
+//import ClickCounter from './ClickCounter';
 
 export default function NavBar() {
     return (
